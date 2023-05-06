@@ -52,6 +52,10 @@ p {
   color: white;
 }
 
+.primary-link:hover {
+  color: black;
+}
+
 .secondary-link {
   border-radius: 4px;
   padding: 20px 15px;
@@ -88,11 +92,27 @@ p {
 }
 
 @media (max-width: 600px) {
+  body {
+    text-align: center;
+  }
+
   h1 {
     font-size: 50px;
   }
 
   h2 {
     font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .navigation-links {
+    margin-top: 30px;
+  }
+
+  .front-page-image {
+    display: none;
   }
 }
